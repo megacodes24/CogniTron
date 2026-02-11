@@ -1,0 +1,18 @@
+# Ignore IDE and environment files
+.idea/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore data and audio
+*.wav
+*.mp3
+data/
+models/
+secret_token.py
+
+# OS junk
+.DS_Store
+Thumbs.db
